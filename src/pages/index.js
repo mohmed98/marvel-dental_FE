@@ -48,12 +48,22 @@ const Homepage = ({ homePageSlug }) => {
 
 	return (
 		<>
-			<PageContent params={params} />
-			<h2>Recent Posts (loaded client-side)</h2>
-			{loading
-				? 'Loading Recent Posts...'
-				: data.posts.map((post) => <RecentPost key={post.id} post={post} />)}
+			{/* <PageContent params={params} /> */}
+			<p>landing section here</p>
+			<p>service section here</p>
+			<p>feature section here</p>
+			<p>CTA section here</p>
+			<p>History section here</p>
+			<p>Team section here</p>
+			<p>Reviews section here</p>
+			<p>Form section here</p>
+			<p>NewsLetter section here</p>
 
+			{/* <h2>Recent Posts (loaded client-side)</h2> */}
+			{/* {loading
+				? 'Loading Recent Posts...'
+				: data.posts.map((post) => <RecentPost key={post.id} post={post} />)} */}
+			{/* 
 			{terms.length > 0 ? (
 				<>
 					<h3>Categories</h3>
@@ -65,7 +75,7 @@ const Homepage = ({ homePageSlug }) => {
 						))}
 					</ul>
 				</>
-			) : null}
+			) : null} */}
 		</>
 	);
 };

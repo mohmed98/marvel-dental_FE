@@ -39,5 +39,7 @@ export const Nav = () => {
 		return null;
 	}
 
-	return <Menu items={data} className={navStyles} />;
+	// return <Menu items={data} className={navStyles} />;
+	return <span>Nav here</span>;
+
 };

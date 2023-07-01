@@ -25,6 +25,7 @@ const StyledFooter = styled.footer`
 const Footer = () => {
 	return (
 		<StyledFooter>
+			<span>footer here</span>
 			<FooterLinks />
 			<div>
 				<p>Copyright &copy; 10up {new Date().getFullYear()}. All Rights Reserved</p>
