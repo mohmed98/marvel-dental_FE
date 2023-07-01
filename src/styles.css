@@ -1,6 +1,9 @@
 /*
 Includes Global CSS Styles such as libraries css and WP block library
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("css/nprogress.css");
 
 /* this should match the WordPress version you're supporting
