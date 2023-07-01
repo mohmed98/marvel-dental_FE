@@ -18,7 +18,7 @@ const logoStyles = css`
 export const Logo = () => {
 	return (
 		<div className={logoStyles}>
-			<span>Brand Logo</span>
+			<a href='/'>Home</a>
 		</div>
 	);
 };
